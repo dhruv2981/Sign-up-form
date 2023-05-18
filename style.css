@@ -1,0 +1,55 @@
+body {
+    background: url(./image2.jpeg) no-repeat center center ;
+    background-size:100% 100%;
+  } 
+  *{
+    box-sizing: border-box;
+  }
+.wrapper{
+    display:flex;
+    width:100%;
+   
+    flex-direction:column;
+    align-items:center;
+    justify-content: flex-end;
+    margin-top:13rem;
+    margin-bottom:2.8rem;
+    
+}
+.entry>label{
+    font-family:'Times New Roman', Times, serif;
+}
+.entry>label{
+    display:block;
+
+}
+.entry>input{
+    display:block;
+}
+.entry{
+    margin-top:0.7rem;
+}
+
+
+@media(min-height:800px){
+   .wrapper{
+    margin-top:18rem;
+    /* margin-bottom:2rem; */
+   } 
+}
+
+@media(min-height:1000px){
+    .wrapper{
+     margin-top:28rem;
+     margin-bottom:2rem;
+    } 
+ }
+ @media(min-height:1200px){
+    .wrapper{
+     margin-top:34rem;
+     margin-bottom:2rem;
+    } 
+ }
+
+
+

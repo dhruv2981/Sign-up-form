@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-in">
+        <h1>SignUp</h1>
+        <form action="" method="get">
+            <div class="entry">
+                <label for="username">Username</label>
+                <input type="text"   class="" placeholder="Enter the username" required>
+
+            </div>
+            <div class="entry">
+                <label for="email">Email</label>
+                <input type="email" id="usr-email"  
+                placeholder="Enter the email">
+                <span id="emailerror"></span>
+            </div>
+            <div class="entry">
+                <div class="entry-gender">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" required>M 
+                <input type="radio"  name="gender" required>F</div>
+
+            </div>
+            <div class="entry">
+                <label for="password">Password</label>
+                <input type="password" id="usr-password"   placeholder="Enter the password" required>
+                <span id="passworderror"></span>
+
+            </div>
+            <div class="entry">
+                <label for="username">Confirm Password</label>
+                <input type="password" id="usr-confirmpassword"   placeholder="Re-Enter the password" required> 
+                <span id="confirmerror"></span></div>
+            
+            <div class="entry">
+                <label for="username">Educational Qualification</label>
+                <!-- <input type="text" id=""  class="" placeholder="Re-Enter the password" required><div></div> -->
+                <select>  
+                    <option value = "10th pass"> 10th pass 
+                    </option>  
+                    <option value = "12th pass"> 12th pass  
+                    </option>  
+                    <option value = "Undergraduate"> Undergraduate
+                    </option>  
+                    <option value = "Postgraduate">Postgraduate  
+                    </option>  
+                    </select>  
+
+           
+            <div class="entry">
+                <label for="username">Age</label>
+                <input type="number"    placeholder="Enter the age"required>
+
+            </div>
+            <div class="entry">
+                <label for="phoneno">Phone No.</label>
+                <input type="number" id="usr-phone"  placeholder="Enter the phone no."required>
+                <span id="phoneerror"></span>
+            </div>
+            <div class="entry">
+                
+                <input type="submit" id="submit"  >
+
+            </div>
+
+        </form>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
